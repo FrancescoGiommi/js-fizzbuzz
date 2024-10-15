@@ -30,6 +30,8 @@ for (let i = 1; i <= 100; i++) {
     console.log(multipleOf3);
 
     /*per i multipli di 5 stampo "Buzz"*/
+  } else if (i % 5 === 0) {
+    console.log(multipleOf5);
   }
 
   /*per i numeri sia di 3 che di 5 stampo "FizzBuzz"*/
