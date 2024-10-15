@@ -40,3 +40,10 @@ for (let i = 1; i <= 100; i++) {
 }
 
 //# OUTPUT
+
+console.log(`
+multipleOf3: ${multipleOf3}
+multipleOf5: ${multipleOf5}
+multipleBoth3And5: ${multipleBoth3And5}
+i: ${i}
+`);
