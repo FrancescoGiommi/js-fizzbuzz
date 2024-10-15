@@ -23,7 +23,7 @@ let i = 1;
 
 /*stampo i numeri da 1 a 100*/
 for (let i = 1; i <= 100; i++) {
-  console.log(`Ripetizione ${""} ${i}`);
+  console.log(i);
 
   /*per i multipli di 3 stampo "Fizz"*/
   if (i % 3 === 0) {
@@ -32,9 +32,11 @@ for (let i = 1; i <= 100; i++) {
     /*per i multipli di 5 stampo "Buzz"*/
   } else if (i % 5 === 0) {
     console.log(multipleOf5);
-  }
 
-  /*per i numeri sia di 3 che di 5 stampo "FizzBuzz"*/
+    /*per i numeri sia di 3 che di 5 stampo "FizzBuzz"*/
+  } else if (i % 3 && i % 5) {
+    console.log(multipleBoth3And5);
+  }
 }
 
 //# OUTPUT
