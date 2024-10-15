@@ -17,17 +17,22 @@ Consigli del giorno:
 let multipleOf3 = "Fizz";
 let multipleOf5 = "Buzz";
 let multipleBoth3And5 = "FizzBuzz";
+let i = 1;
 
 //# ELABORAZIONE
 
 /*stampo i numeri da 1 a 100*/
 for (let i = 1; i <= 100; i++) {
-  console.log(i);
+  console.log(`Ripetizione ${""} ${i}`);
+
+  /*per i multipli di 3 stampo "Fizz"*/
+  if (i % 3 === 0) {
+    console.log(multipleOf3);
+
+    /*per i multipli di 5 stampo "Buzz"*/
+  }
+
+  /*per i numeri sia di 3 che di 5 stampo "FizzBuzz"*/
 }
 
-/*per i multipli di 3 stampo "Fizz"*/
-
-/*per i multipli di 5 stampo "Buzz"*/
-
-/*per i numeri sia di 3 che di 5 stampo "FizzBuzz"*/
 //# OUTPUT
