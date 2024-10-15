@@ -19,7 +19,11 @@ let multipleOf5 = "Buzz";
 let multipleBoth3And5 = "FizzBuzz";
 
 //# ELABORAZIONE
+
 /*stampo i numeri da 1 a 100*/
+for (let i = 1; i <= 100; i++) {
+  console.log(i);
+}
 
 /*per i multipli di 3 stampo "Fizz"*/
 
